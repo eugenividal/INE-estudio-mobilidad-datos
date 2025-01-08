@@ -1,8 +1,7 @@
 ---
 title: "open-data-movilidad"
 output: 
-  github_document:
-    html_preview: true
+  html_document
 ---
 
 ```{r, include = FALSE}
@@ -83,3 +82,46 @@ qtm(dist_202102_CV, "num. trips <10 km")
 
 *Fig 1: Number of trips under 10 km by district (during February 2021) Valencian Country*
 
+<!-- Cycling growth in Valencia city: a quantitative analysis after seven years of investment in cycling infrastructure (and other sustainable transport measures). -->
+
+<!-- Alternative title: 'From Grand Prix (2013) to European Green Capital (2024)' -->
+
+# Background
+
+Valencia has gone in less than 10 years from being one of the most car-oriented Spanish cities (it hosted the Grand Prix in 2013!) to becoming a benchmark in cycling in the Mediterranean area. 
+This rapid change is mainly due to a set of courageous social and environmental transformation policies (e.g. investment in cycling infrastructure, bikesharing system, traffic calming measures, etc.) carried out by the municipal government that came to power in 2015. 
+For this and other environmental achievements it has just been nominated [European Green Capital 2024](https://environment.ec.europa.eu/news/valencia-elsinore-and-velenje-win-2024-european-green-city-awards-2022-10-28_en).
+
+Main policy implementations:
+
+- [Cycling Ring](https://energy-cities.eu/best-practice/a-new-cycling-ring-to-transform-mobility-in-valencia/)
+
+- Bikesharing: [Valenbici](https://www.valenbisi.es/en/home)
+
+- [Traffic Calming Measures](https://elpais.com/espana/comunidad-valenciana/2022-08-07/valencia-revoluciona-su-centro-historico-con-la-peatonalizacion-de-30000-metros-cuadros.html)
+
+# Aims
+
+- Estimate cycling growth. To what extent this growth can be associated to the new policies?
+
+- Estimate economic and health benefits. What are the economic and health benefits of this change? How many deaths (emissions and road safety) have been avoided? 
+
+- Future. Is this growth enough? What to do to go beyond?
+
+# Data 
+
+- [Cycling traffic counts](https://opendata.vlci.valencia.es/en/dataset/intensitat-dels-punts-de-mesura-de-bicicletes-espires-electromagnetiques)
+
+
+```{r}
+library("rjson")
+
+json_file <- "https://geoportal.valencia.es/apps/OpenData/Trafico/tra_espiras_bici_p.json"
+json_data <- fromJSON(paste(readLines(json_file), collapse=""))
+```
+
+- Valenbici data?
+
+# Next steps
+
+- Get more data!

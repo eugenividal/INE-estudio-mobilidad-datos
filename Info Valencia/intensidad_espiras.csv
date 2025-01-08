@@ -1,0 +1,11 @@
+modified;angulo;intensidad;punto_medida;ycoord;xcoord;uri
+2023-01-13T08:43:01+01:00;100;60;3633;4372908.419;723108.9340000004;http://apigobiernoabiertortod.valencia.es/rest/datasets/intensidad_espiras/b2bc2c1ed4fc63a73d9b42777e80cbb8.csv
+2023-01-13T08:43:01+01:00;101;30;3634;4372873.067;723064.75;http://apigobiernoabiertortod.valencia.es/rest/datasets/intensidad_espiras/089e2fcc6795274a70a88b74cf1a17c9.csv
+2023-01-13T08:43:01+01:00;161;90;1437;4373151.887;726785.2470000004;http://apigobiernoabiertortod.valencia.es/rest/datasets/intensidad_espiras/df225540cd85a0346c13e66cea7dc23d.csv
+2023-01-13T08:43:01+01:00;162;120;1438;4373295.801000001;726654.0810000002;http://apigobiernoabiertortod.valencia.es/rest/datasets/intensidad_espiras/927f09609c8624afc6a40cd261c0fd6c.csv
+2023-01-13T08:43:01+01:00;72;120;1536;4372337.736;727199.4809999997;http://apigobiernoabiertortod.valencia.es/rest/datasets/intensidad_espiras/770b14ee239a4026189d9e1e1cad8ad8.csv
+2023-01-13T08:43:01+01:00;72;210;1537;4372402.039000001;727290.5029999996;http://apigobiernoabiertortod.valencia.es/rest/datasets/intensidad_espiras/5ce2d5079611465fa9f36c28cd6594e3.csv
+2023-01-13T08:43:01+01:00;161;120;1820;4372668.177999999;728455.0829999996;http://apigobiernoabiertortod.valencia.es/rest/datasets/intensidad_espiras/aee79511f1b6bd5d0616e21ff23373d7.csv
+2023-01-13T08:43:01+01:00;161;120;1821;4372590.83;728409.3219999997;http://apigobiernoabiertortod.valencia.es/rest/datasets/intensidad_espiras/647ce28190814b5fa118811dbe95f6d3.csv
+2023-01-13T08:43:01+01:00;160;240;2047;4373415.994000001;728179.7220000001;http://apigobiernoabiertortod.valencia.es/rest/datasets/intensidad_espiras/3423dc406d6304cc4df69aa4d4f7ba30.csv
+2023-01-13T08:43:01+01:00;162;90;2048;4373482.095000001;728151.8449999997;http://apigobiernoabiertortod.valencia.es/rest/datasets/intensidad_espiras/44893599b1a1d40c6f78c2272f06f8b3.csv
